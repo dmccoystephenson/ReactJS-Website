@@ -28,19 +28,19 @@ class App extends Component {
 	}
 
 	decidePage() {
-		if (this.state.page == 'home') {
+		if (this.state.page === 'home') {
 			return < Home />;
 		}
-		else if (this.state.page == 'about') {
+		else if (this.state.page === 'about') {
 			return 	< About />;
 		}
-		else if (this.state.page == 'education') {
+		else if (this.state.page === 'education') {
 			return < Education />;
 		}
-		else if (this.state.page == 'work-experience') {
+		else if (this.state.page === 'work-experience') {
 			return < WorkExperience />;
 		}
-		else if (this.state.page == 'languages') {
+		else if (this.state.page === 'languages') {
 			return < Languages />;
 		}
 		else {
