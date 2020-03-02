@@ -4,8 +4,11 @@
 
 .header {
   background-color: #666;
-  padding: 10px;
+  padding: 1px;
   color: white;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
 .footer {
