@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Home from './Home.js';
-import About from './About.js';
-import Education from './Education.js';
-import WorkExperience from './WorkExperience.js';
-import Languages from './Languages.js';
+import Home from './Home/Home.js';
+import About from './About/About.js';
+import Education from './Education/Education.js';
+import WorkExperience from './Work Experience/WorkExperience.js';
+import Languages from './Languages/Languages.js';
 
-import Footer from './Footer.js'
+import Footer from './Footer/Footer.js'
 
 class App extends Component {
 	constructor(props) {
