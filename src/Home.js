@@ -23,16 +23,12 @@ class Home extends Component {
 
 	render() {
 		return (
-				<div className="centered">
-
-					{this.renderIntro()}
-
-          <br />
-
-					{this.renderQuestions()}
-
-				</div>
-			);
+			<div className="centered">
+				{this.renderIntro()}
+				<br />
+				{this.renderQuestions()}
+			</div>
+		);
 	}
 }
 
