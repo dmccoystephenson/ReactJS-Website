@@ -3,10 +3,6 @@ import './App.css';
 
 import Home from './Home/Home.js';
 import About from './About/About.js';
-import ContactInfo from './Contact Info/ContactInfo';
-import Education from './Education/Education.js';
-import WorkExperience from './Work Experience/WorkExperience.js';
-import Languages from './Languages/Languages.js';
 import Projects from './Projects/Projects.js';
 
 import Footer from './Footer/Footer.js'

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import ContactInfo from "../Contact Info/ContactInfo";
-import Education from "../Education/Education";
-import WorkExperience from "../Work Experience/WorkExperience";
-import Languages from "../Languages/Languages";
+import ContactInfo from "./Contact Info/ContactInfo";
+import Education from "./Education/Education";
+import WorkExperience from "./Work Experience/WorkExperience";
+import Languages from "./Languages/Languages";
 
 class About extends Component {
     constructor(props) {
