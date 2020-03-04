@@ -7,6 +7,7 @@ import ContactInfo from './Contact Info/ContactInfo';
 import Education from './Education/Education.js';
 import WorkExperience from './Work Experience/WorkExperience.js';
 import Languages from './Languages/Languages.js';
+import Projects from './Projects/Projects.js';
 
 import Footer from './Footer/Footer.js'
 
@@ -47,6 +48,9 @@ class App extends Component {
 		else if (this.state.page === 'contact-info') {
 			return < ContactInfo />;
 		}
+		else if (this.state.page === 'projects') {
+			return < Projects />;
+		}
 		else {
 			return <p>Not Available Yet</p>;
 		}
@@ -72,6 +76,7 @@ class App extends Component {
 				<button onClick={() => this.setPage('education')}>Education</button>
 				<button onClick={() => this.setPage('work-experience')}>Work Experience</button>
 				<button onClick={() => this.setPage('languages')}>Languages</button>
+				<button onClick={() => this.setPage('projects')}>Projects</button>
 			</div>
 		)
 	}
