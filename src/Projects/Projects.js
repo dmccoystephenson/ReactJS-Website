@@ -5,7 +5,7 @@ class Projects extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            page: 'project-1'
+            page: 'projects-intro'
         };
     }
 
@@ -19,7 +19,10 @@ class Projects extends Component {
     }
 
     decidePage() {
-        if (this.state.page === 'project-1') {
+        if (this.state.page === 'projects-intro') {
+            return this.renderProjects();
+        }
+        else if (this.state.page === 'project-1') {
             return <p>test</p>;
         }
         else if (this.state.page === 'project-2') {
@@ -28,6 +31,10 @@ class Projects extends Component {
         else {
             return <p>Not Available Yet</p>;
         }
+    }
+
+    renderProjects() {
+        return <p>This is where I will describe projects I have completed or projects I am working on.</p>
     }
 
     renderHeader() {
@@ -41,6 +48,7 @@ class Projects extends Component {
     renderPageList() {
         return (
             <div className="navigation2">
+                <button onClick={() => this.setPage('projects-intro')}>Projects Intro</button>
                 <button onClick={() => this.setPage('project-1')}>Project 1</button>
                 <button onClick={() => this.setPage('project-2')}>Project 2</button>
             </div>

@@ -7,16 +7,7 @@ class Home extends Component {
 			<div>
 				<h1>Home</h1>
 				<p>Welcome to my website! I'm currently learning ReactJS concepts and wanted to experiment a little here.</p>
-			</div>
-		)
-	}
-
-	renderQuestions() {
-		return (
-			<div>
-				<h2> Investigative Questions </h2>
-				<p>Question: How do I show you a list of pages and only show you one page at a time?</p>
-				<p>Answer: Showing one component at a time depending upon state.</p>
+				<p>I have successfully implemented a tab design here that allows me to show different page components and have different navigation panes.</p>
 			</div>
 		)
 	}
@@ -25,8 +16,6 @@ class Home extends Component {
 		return (
 			<div className="centered">
 				{this.renderIntro()}
-				<br />
-				{this.renderQuestions()}
 			</div>
 		);
 	}
