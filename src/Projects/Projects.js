@@ -5,7 +5,7 @@ class Projects extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            page: 'projects-intro'
+            page: 'Medieval Factions'
         };
     }
 
