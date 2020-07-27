@@ -5,7 +5,7 @@ class Footer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      lastEdited: '3/3/2020'
+      lastEdited: '7/26/2020'
     }
   }
   render() {
